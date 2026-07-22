@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Cache
+.pytest_cache/
+.reentry/
+.mypy_cache/
+
+# Training Logs & Checkpoints
+checkpoints*/
+runs/
+.tensorboard/
+
+# Large Datasets & Compiled Tokenizer
+data/raw/
+data/processed/*.bin
+data/processed/*.txt
+data/processed/*.sqlite3
+data/processed/tokenizer.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
